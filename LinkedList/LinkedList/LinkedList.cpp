@@ -21,9 +21,9 @@ int main()
 		current = current->getNext();
 	}
 	std::cout << current->getMessage() << std::endl;
-	delete(node);
-	delete(node1);
-	delete(node2);
+	delete node;
+	delete node1;
+	delete node2;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
